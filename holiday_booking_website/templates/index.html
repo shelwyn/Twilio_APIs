@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+          .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+      <a class="navbar-brand">Booking Demo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    </div>
+  </div>
+</nav>
+<br>
+        <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                        <div class="form-group">
+    <form method="post">
+        <select name="country" class="form-control">
+            <option value="">Select Country</option>
+            <option value="Dubai">England</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Germany">Germany</option>
+            <option value="Malaysia">Malaysia</option>
+        </select>
+        <br>
+        <input type="number" name="nights" class="form-control" placeholder="Nights">
+        <br>
+        <input type="submit" name="submit_button" class="btn primary" value="Send Booking Enquiry" class="form-control">
+        <hr><br>
+        <b>
+        {% for res in response_message %}
+            {{res}}
+        {% endfor %}
+        </b>
+    </form>
+</div>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+        </div>
+</div>
+</body>
+</html>
+
