@@ -7,7 +7,7 @@ Instructions for sample, creating incident with automated service desk
 
 ==================================================================================================================================
 
-![alt text](https://github.com/shelwyn/Twilio_APIs/blob/images/Twilio Call with Inputs.png?raw=true)
+![alt text]([https://github.com/shelwyn/Twilio_APIs/blob/images/Twilio Call with Inputs.png](https://github.com/shelwyn/Twilio_APIs/edit/main/README.md)?raw=true)
 
 1 - Get a Twilio trial account: https://www.twilio.com/ | -- Get a free mongo DB here: https://account.mongodb.com/account 
 
