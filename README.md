@@ -3,7 +3,7 @@ Twilio communication API's, inbound/outbound calls, SMS
 
 Instructions for sample, creating incident with automated service desk
 
-1 - Get a Twilio trial account: https://www.twilio.com/ | https://account.mongodb.com/account   -- Get a free mongo DB here (This is used for the Incident management         app)
+1 - Get a Twilio trial account: https://www.twilio.com/ | -- Get a free mongo DB here: https://account.mongodb.com/account 
 
 2 - Get a Twilio number (once you login, go to the section Voice, try it out) to get a new number
 
