@@ -15,8 +15,8 @@ def holiday():
 
     call = client.calls.create(
                         twiml='<Response><Say>A new holiday was booked on the website, please check your SMS for more details</Say></Response>',
-                        to='+919620214631',
-                        from_='+19706276412'
+                        to='+<YOUR_PHONE_NO_RESISTERED_ON_TWILIO>',
+                        from_='+<YOUR_NUMBER_ASSIGNED_BY_TWILIO>'
                     )
 
     time.sleep(5)
