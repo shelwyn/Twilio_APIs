@@ -7,7 +7,7 @@ Instructions for sample, creating incident with automated service desk
 
 ==================================================================================================================================
 
-![alt text](https://github.com/shelwyn/Twilio_APIs/blob/main/images/Twilio%20SMS%20Call.PNG)
+![alt text](https://github.com/shelwyn/Twilio_APIs/blob/main/images/Twilio%20Call%20with%20Inputs.PNG)
 
 1 - Get a Twilio trial account: https://www.twilio.com/ | -- Get a free mongo DB here: https://account.mongodb.com/account 
 
@@ -29,6 +29,8 @@ Instructions for sample, creating incident with automated service desk
 Instructions for sample booking holiday package
 
 ==================================================================================================================================
+
+![alt text](https://github.com/shelwyn/Twilio_APIs/blob/main/images/Twilio%20SMS%20Call.PNG)
 
 1 - Run the python file (app.py) in the folder TWILIO_CALL_SMS (update account_sid, auth_token, to [phone number], from [phone number]) you get from Twilio. if you are       running it on a cloud instance, you will have to use the instance public ip with port 80. If you are running it on your local machine, you will have to tunnel it         with NGROK (port 80)
 
